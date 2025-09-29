@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+  --nes-font: 'Orbitron', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --nes-red: #D1283D;
+  --nes-light-gray: rgb(197, 196, 193);
+  --nes-dark-gray: rgb(111,111,111);
+  --background-color: #292A29;
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
