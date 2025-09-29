@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router';
 import { Cartridge } from './cartridge/Cartridge';
 import './Homepage.css';
 import { NES } from './nes/Nes';
@@ -30,6 +31,7 @@ export const Homepage: React.FC<HomepageProps> = (props) => {
                     <Cartridge title="Some 4th Project" description="Idk man. Here's some description. TODO JACOB fill this out." />
                 </div>
             </div>
+            <NavLink to="collection" end>To collection!</NavLink>
         </>
     )
 }
