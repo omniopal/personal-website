@@ -24,16 +24,16 @@ export const Homepage: React.FC<HomepageProps> = (props) => {
             </div>
             <div className="projects">
                 <a className="project" href="/collection">
-                    <img className="project-img" src="/images/New Project.webp" />
+                    <img className="project-img" src="/images/project-collection.webp" />
                 </a>
                 <a className="project" href="http://www.pokemelody.com">
-                    <img className="project-img" src="/images/melody.webp" />
+                    <img className="project-img" src="/images/project-pokemelody.webp" />
                 </a>
                 <a className="project" href="/mazes">
-                    <img className="project-img" src="/images/mazes.webp" />
+                    <img className="project-img" src="/images/project-mazes.webp" />
                 </a>
                 <a className="project" href="/draftlocke">
-                    <img className="project-img" src="/images/lock.webp" />
+                    <img className="project-img" src="/images/project-draftlocke.webp" />
                 </a>
                 {/* <div className="projects-title">Projects</div>
                 <div className="cartridges">
