@@ -31,7 +31,7 @@ export const NES: React.FC<NESProps> = () => {
                             Hello, I'm Jacob Mauro!
                         </div>
                         <div className="cart-slot-text subtitle nes-text-theme">
-                            {!resetButtonClicked && <Typewriter text={["Software engineer", "Nintendo collector", "Dev tools wiz"]} />}
+                            {!resetButtonClicked && <Typewriter text={["Software engineer", "Nintendo collector"]} />}
                         </div>
                     </div>
                 </div>

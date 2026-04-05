@@ -23,15 +23,26 @@ export const Homepage: React.FC<HomepageProps> = (props) => {
                 </svg>
             </div>
             <div className="projects">
-                <div className="projects-title">Projects</div>
+                <a className="project" href="/collection">
+                    <img className="project-img" src="/images/New Project.webp" />
+                </a>
+                <a className="project" href="http://www.pokemelody.com">
+                    <img className="project-img" src="/images/melody.webp" />
+                </a>
+                <a className="project" href="/mazes">
+                    <img className="project-img" src="/images/mazes.webp" />
+                </a>
+                <a className="project" href="/draftlocke">
+                    <img className="project-img" src="/images/lock.webp" />
+                </a>
+                {/* <div className="projects-title">Projects</div>
                 <div className="cartridges">
                     <Cartridge title="PokeMelody" description="Daily pokemon game testing both map and music knowledge" />
                     <Cartridge title="Nuzlocke Drafter" description="A tool to draft teams of pokemon with friends in real-time" />
                     <Cartridge title="TTR Maze Finder" description="A visual demo of maze layouts and their solutions in Toontown Rewritten" />
                     <Cartridge title="Some 4th Project" description="Idk man. Here's some description. TODO JACOB fill this out." />
-                </div>
+                </div> */}
             </div>
-            <NavLink to="collection" end>To collection!</NavLink>
         </>
     )
 }
