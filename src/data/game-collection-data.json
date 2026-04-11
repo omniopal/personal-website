@@ -273,9 +273,9 @@
                 },
                 {
                     "title": "Super Mario RPG: Legend of the Seven Stars",
-                    "hasGame": false,
-                    "hasCase": false,
-                    "hasManual": false,
+                    "hasGame": true,
+                    "hasCase": true,
+                    "hasManual": true,
                     "hasPlayed": true,
                     "boxArt": "SNES/SMRPG.webp",
                     "releaseDate": "May 13, 1996"
@@ -420,9 +420,9 @@
                 },
                 {
                     "title": "Super Mario Bros. Deluxe",
-                    "hasGame": false,
-                    "hasCase": false,
-                    "hasManual": false,
+                    "hasGame": true,
+                    "hasCase": true,
+                    "hasManual": true,
                     "hasPlayed": false,
                     "boxArt": "GBC/SMBDeluxe.webp",
                     "releaseDate": "April 30, 1999"
@@ -526,9 +526,9 @@
                 },
                 {
                     "title": "Mario vs. Donkey Kong",
-                    "hasGame": false,
-                    "hasCase": false,
-                    "hasManual": false,
+                    "hasGame": true,
+                    "hasCase": true,
+                    "hasManual": true,
                     "hasPlayed": false,
                     "boxArt": "GBA/MarioVsDonkeyKong.webp",
                     "releaseDate": "May 24, 2004"
@@ -1127,9 +1127,9 @@
                 },
                 {
                     "title": "Yoshi's New Island",
-                    "hasGame": false,
-                    "hasCase": false,
-                    "hasManual": false,
+                    "hasGame": true,
+                    "hasCase": true,
+                    "hasManual": true,
                     "hasPlayed": false,
                     "boxArt": "3DS/YoshisNewIsland.webp",
                     "releaseDate": "March 14, 2014"
@@ -1341,9 +1341,9 @@
                 },
                 {
                     "title": "Mario Party 10",
-                    "hasGame": false,
-                    "hasCase": false,
-                    "hasManual": false,
+                    "hasGame": true,
+                    "hasCase": true,
+                    "hasManual": true,
                     "hasPlayed": false,
                     "boxArt": "WiiU/MP10.webp",
                     "releaseDate": "March 20, 2015"
