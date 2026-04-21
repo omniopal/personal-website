@@ -7,7 +7,8 @@ import { Filters } from './filters/Filters';
 import { getGameBoxType } from '../../utils/get-game-box-type';
 import { NoGamesWarning } from './no-games-warning/NoGamesWarning';
 import { GameInfo } from './game-info/GameInfo';
-
+import { Canvas } from '@react-three/fiber';
+import { useGLTF, Stage, PresentationControls, OrbitControls } from '@react-three/drei';
 
 type GameCollectionProps = {};
 
@@ -52,8 +53,46 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
         }
     }
 
+    const isMobile = window.innerWidth < 768;
+
+    const Model = (props: any) => { // temp any find right type and fix
+         const { scene } = useGLTF('/objects/test.glb');
+         return <primitive object={scene} {...props} />
+    }
+
     return (
         <div className="background">
+            <div>UNDER CONSTRUCTION - Testing something out</div>
+            <Canvas
+                dpr={[1, 2]}
+                shadows
+                camera={{ fov: 45, position: [0, 0, isMobile ? 2.5 : 1] }}
+                // style={{ 'position': 'absolute' }}
+            >
+                <color attach="background" args={["#101010"]} />
+
+                <ambientLight intensity={2.25} />
+                <directionalLight position={[5, 5, 5]} intensity={1} castShadow />
+                <directionalLight position={[-5, -5, -5]} intensity={0.2} />
+
+                <PresentationControls
+                    speed={1.25}
+                    global
+                >
+                    <Model
+                        scale={1}
+                        position={[0, -0.25, 0]}
+                        rotation={[0, Math.PI, 0]}
+                    />
+                </PresentationControls>
+
+                <OrbitControls 
+                    enableRotate={false}
+                    enablePan={true}
+                    enableZoom={true}
+                    zoomSpeed={0.8}
+                />
+            </Canvas>
             <div className="jacobs-games">
                 <img className="jacobs-games-image" src="/images/jacobs-games.png" alt="TODO" style={{ width: '100%', height: 'auto' }} />
             </div>
