@@ -66,7 +66,7 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
             <Canvas
                 dpr={[1, 2]}
                 shadows
-                camera={{ fov: 45, position: [0, 0, isMobile ? 2.5 : 1] }}
+                camera={{ fov: 45, position: [0, 0, isMobile ? 1.5 : 1] }}
                 // style={{ 'position': 'absolute' }}
             >
                 <color attach="background" args={["#101010"]} />
