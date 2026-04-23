@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './GameCollection.css';
 import * as gameCollectionDataJson from '../../data/game-collection-data.json';
 import { getPhysicalGameType } from '../../utils/get-physical-game-type';
@@ -8,7 +8,9 @@ import { getGameBoxType } from '../../utils/get-game-box-type';
 import { NoGamesWarning } from './no-games-warning/NoGamesWarning';
 import { GameInfo } from './game-info/GameInfo';
 import { Canvas } from '@react-three/fiber';
-import { useGLTF, Stage, PresentationControls, OrbitControls } from '@react-three/drei';
+import { useGLTF, PresentationControls, OrbitControls } from '@react-three/drei';
+import { Button, Modal } from '@mantine/core';
+import { useDisclosure } from '@mantine/hooks';
 
 type GameCollectionProps = {};
 
@@ -35,6 +37,7 @@ interface Console {
 export const GameCollection: React.FC<GameCollectionProps> = () => {
     const [filterValue, setFilterValue] = useState<ListFilter>('all-games');
     const [openIndices, setOpenIndices] = useState<number[]>([]);
+    
     const gameData: { consoles: Console[] } = gameCollectionDataJson;
 
     const onFilterChange = (filter: ListFilter) => {
@@ -62,37 +65,6 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
 
     return (
         <div className="background">
-            <div>UNDER CONSTRUCTION - Testing something out</div>
-            <Canvas
-                dpr={[1, 2]}
-                shadows
-                camera={{ fov: 45, position: [0, 0, isMobile ? 1.5 : 1] }}
-                // style={{ 'position': 'absolute' }}
-            >
-                <color attach="background" args={["#101010"]} />
-
-                <ambientLight intensity={2.25} />
-                <directionalLight position={[5, 5, 5]} intensity={1} castShadow />
-                <directionalLight position={[-5, -5, -5]} intensity={0.2} />
-
-                <PresentationControls
-                    speed={1.25}
-                    global
-                >
-                    <Model
-                        scale={1}
-                        position={[0, -0.25, 0]}
-                        rotation={[0, Math.PI, 0]}
-                    />
-                </PresentationControls>
-
-                <OrbitControls 
-                    enableRotate={false}
-                    enablePan={true}
-                    enableZoom={true}
-                    zoomSpeed={0.8}
-                />
-            </Canvas>
             <div className="jacobs-games">
                 <img className="jacobs-games-image" src="/images/jacobs-games.png" alt="TODO" style={{ width: '100%', height: 'auto' }} />
             </div>
