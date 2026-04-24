@@ -18,7 +18,7 @@ export type ListFilter = 'all-games' | 'owned-games' | 'unowned-games';
 
 interface Game {
     title: string;
-    boxArt: string;
+    filePath: string;
     hasGame: boolean;
     hasCase: boolean;
     hasManual?: boolean;
@@ -103,7 +103,7 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
                                         return (<div key={gameIndex}>
                                             <GameInfo 
                                                 text={game.title}
-                                                boxArt={game.boxArt}
+                                                filePath={game.filePath}
                                                 personalCopyImage={game.image}
                                                 gameReleaseDate={game.releaseDate}
                                                 physicalGameType={physicalGameType}

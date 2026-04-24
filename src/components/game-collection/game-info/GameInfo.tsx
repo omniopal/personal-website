@@ -18,7 +18,7 @@ type ChipInfo = {
 
 type GameInfoProps = PropsWithChildren & {
     text: string;
-    boxArt: string | undefined;
+    filePath: string;
     personalCopyImage?: string;
     chipInfo: ChipInfo;
     gameReleaseDate: string;
@@ -29,7 +29,7 @@ type GameInfoProps = PropsWithChildren & {
 
 export const GameInfo: React.FC<GameInfoProps> = ({
     text,
-    boxArt,
+    filePath,
     personalCopyImage,
     chipInfo,
     gameReleaseDate,
@@ -44,15 +44,16 @@ export const GameInfo: React.FC<GameInfoProps> = ({
     const isMobile = window.innerWidth < 768;
 
     const Model = (props: any) => { // temp any find right type and fix
-         const { scene } = useGLTF('/objects/test.glb');
-         return <primitive object={scene} {...props} />
+        //  const { scene } = useGLTF('/objects/test.glb');
+        const { scene } = useGLTF('https://pub-1c3c24ac600e4d4daf14cd109a0897f1.r2.dev/SNES/SMRPG.glb');
+        return <primitive object={scene} {...props} />
     }
 
     return (
         <div className={(clsx("game-info", isVeryLastGame && "very-last-game-info"))}>
             <div className="image-and-title">
                 <div className="image-container">
-                    <img className="game-image" src={`/images/${boxArt}`} />
+                    <img className="game-image" src={`/images/${filePath}.webp`} />
                 </div>
                 <div className="title-and-chips">
                     <h2>{text}</h2>

@@ -57,7 +57,7 @@ export const CollapsibleConsoleButton: React.FC<CollapsibleConsoleButtonProps> =
                 onClick={toggleCollapse}>
                 <div className="console-info">
                     <div className="console-image-container">
-                        <img src={`/images/${consoleImage}`} alt="TODO" style={{ width: '100px', height: 'auto' }} />
+                        <img src={`/images/${consoleImage}.webp`} alt="TODO" style={{ width: '100px', height: 'auto' }} />
                     </div>
                     <div className="name-and-release-date">
                         <h2>{consoleName}</h2>
