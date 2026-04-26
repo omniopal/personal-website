@@ -1,6 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { useGLTF, PresentationControls, OrbitControls } from "@react-three/drei";
 import { JSX } from "react";
+import { TOUCH } from "three";
 
 type GameModelViewerProps = {
     filePath: string;
@@ -41,10 +42,17 @@ export const GameModelViewer: React.FC<GameModelViewerProps> = ({ filePath }) =>
             </PresentationControls>
 
             <OrbitControls
-                enableRotate={false}
+                enableRotate={true}
                 enablePan={true}
                 enableZoom={true}
                 zoomSpeed={0.8}
+                panSpeed={0.8}
+                touches={{
+                    ONE: TOUCH.ROTATE,
+                    TWO: TOUCH.PAN,
+                }}
+                enableDamping={true}
+                dampingFactor={0.05}
             />
         </Canvas>
     );
