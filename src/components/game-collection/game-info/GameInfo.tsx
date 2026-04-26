@@ -1,13 +1,13 @@
 import { Chip, useMediaQuery, useTheme } from '@mui/material';
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 import './GameInfo.css';
 import clsx from 'clsx';
 import { GameImageModalButton } from '../game-image-modal-button/GameImageModalButton';
-import { TbView360Number as Interactive360Icon } from "react-icons/tb";
-import { Button, Modal } from '@mantine/core';
+import { Button, Modal, Stack } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { Canvas } from '@react-three/fiber';
-import { useGLTF, PresentationControls, OrbitControls } from '@react-three/drei';
+import { GameModelViewer } from '../game-model-viewer/GameModelViewer';
+import { FaBoxOpen as BoxOpenIcon } from "react-icons/fa";
+import { LuRotate3D as RotateIcon } from "react-icons/lu";
 
 type ChipInfo = {
     hasGame: boolean;
@@ -25,6 +25,8 @@ type GameInfoProps = PropsWithChildren & {
     physicalGameType: string;
     boxType: string;
     isVeryLastGame: boolean;
+    hasGlb: boolean;
+    hasContentsPic: boolean;
 };
 
 export const GameInfo: React.FC<GameInfoProps> = ({
@@ -36,18 +38,13 @@ export const GameInfo: React.FC<GameInfoProps> = ({
     physicalGameType,
     boxType,
     isVeryLastGame,
+    hasGlb,
+    hasContentsPic,
 }) => {
     const theme = useTheme();
     const isSmallBreakpoint = useMediaQuery(theme.breakpoints.down(700));
-    const [opened, { open, close }] = useDisclosure(false);
-
-    const isMobile = window.innerWidth < 768;
-
-    const Model = (props: any) => { // temp any find right type and fix
-        //  const { scene } = useGLTF('/objects/test.glb');
-        const { scene } = useGLTF('https://pub-1c3c24ac600e4d4daf14cd109a0897f1.r2.dev/SNES/SMRPG.glb');
-        return <primitive object={scene} {...props} />
-    }
+    const [is3DModalOpened, { open: open3DModal, close: close3DModal }] = useDisclosure(false);
+    const [isContentsModalOpened, { open: openContentsModal, close: closeContentsModal }] = useDisclosure(false);
 
     return (
         <div className={(clsx("game-info", isVeryLastGame && "very-last-game-info"))}>
@@ -64,54 +61,71 @@ export const GameInfo: React.FC<GameInfoProps> = ({
                             <Chip label={boxType} color="success" variant={chipInfo.hasBox ? "filled" : "outlined"} />
                             {chipInfo.hasManual !== undefined && <Chip label="Manual" color="success" variant={chipInfo.hasManual ? "filled" : "outlined"} />}
                             <Chip label="Played" color="success" variant={chipInfo.hasPlayed ? "filled" : "outlined"} />
-                            <Button
-                                variant="default"
-                                onClick={open}
-                                size="xs"
-                            >
-                                <Interactive360Icon size="28px" />
-                            </Button>
-                            <Modal
-                                opened={opened}
-                                onClose={close}
-                                title="testing title"
-                                centered
-                                size="100%"
-                            >
-                                <Canvas
-                                    style={{ height: '80vh' }}
-                                    dpr={[1, 2]}
-                                    shadows
-                                    camera={{ fov: 45, position: [0, 0, isMobile ? 1.5 : 1] }}
-                                >
-                                    <color attach="background" args={["#101010"]} />
-                                    <ambientLight intensity={2.25} />
-                                    <directionalLight position={[5, 5, 5]} intensity={1} castShadow />
-                                    <directionalLight position={[-5, -5, -5]} intensity={0.2} />
-                
-                                    <PresentationControls
-                                        speed={1.25}
-                                        global
-                                    >
-                                        <Model
-                                            scale={1}
-                                            position={[0, -0.25, 0]}
-                                            rotation={[0, Math.PI, 0]}
-                                        />
-                                    </PresentationControls>
-                
-                                    <OrbitControls 
-                                        enableRotate={false}
-                                        enablePan={true}
-                                        enableZoom={true}
-                                        zoomSpeed={0.8}
-                                    />
-                                </Canvas>
-                            </Modal>    
                             {chipInfo.hasGame && <GameImageModalButton text={`My copy of ${text}`} image={personalCopyImage} />}
                         </div>
                     }
                 </div>
+                {!isSmallBreakpoint && (hasGlb || hasContentsPic) &&
+                    <Stack 
+                        style={{
+                            marginLeft: 'auto',
+                            paddingLeft: '16px',
+                        }}
+                    >
+                        {hasGlb &&
+                            <Button
+                                color="black"
+                                leftSection={<RotateIcon size={20} />}
+                                onClick={open3DModal}
+                            >
+                                View 3D
+                            </Button>
+                        }
+                        {hasContentsPic && 
+                            <Button
+                                color="black"
+                                leftSection={<BoxOpenIcon size={20} />}
+                                onClick={openContentsModal}
+                            >
+                                View contents
+                            </Button>
+                        }
+                        <Modal
+                            opened={is3DModalOpened}
+                            onClose={close3DModal}
+                            title={`My copy of ${text}`}
+                            centered
+                            size="100%"
+                            styles={{
+                                title: {
+                                    fontWeight: 'bold',
+                                    fontSize: '20px',
+                                },
+                            }}
+                        >
+                            <GameModelViewer filePath={filePath} />
+                        </Modal>
+                        <Modal
+                            opened={isContentsModalOpened}
+                            onClose={closeContentsModal}
+                            title={`Contents of ${text}`}
+                            centered
+                            size="auto"
+                            styles={{
+                                title: {
+                                    fontWeight: 'bold',
+                                    fontSize: '20px',
+                                },
+                            }}
+                        >
+                            <img
+                                className="contents-image"
+                                src={`https://pub-1c3c24ac600e4d4daf14cd109a0897f1.r2.dev/${filePath}.jpg`}
+                                alt={`An image of the contents inside my copy of ${text}`}
+                            />
+                        </Modal>
+                    </Stack>
+                }
             </div>
             {isSmallBreakpoint && 
                 <div className="chips-small-breakpoint">

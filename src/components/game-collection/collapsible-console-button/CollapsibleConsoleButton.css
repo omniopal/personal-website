@@ -20,7 +20,6 @@
     -webkit-transition: all .1s ease-in;
     transition: all .1s ease-in;
     background-color: whitesmoke;
-    opacity: 90%;
 }
 
 .collapsible-button:hover {

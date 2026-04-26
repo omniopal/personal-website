@@ -23,6 +23,8 @@ interface Game {
     hasCase: boolean;
     hasManual?: boolean;
     hasPlayed: boolean;
+    hasGlb: boolean;
+    hasContentsPic: boolean;
     image?: string;
     releaseDate: string;
 }
@@ -109,6 +111,8 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
                                                 physicalGameType={physicalGameType}
                                                 boxType={boxType}
                                                 isVeryLastGame={isVeryLastGame}
+                                                hasGlb={game.hasGlb}
+                                                hasContentsPic={game.hasContentsPic}
                                                 chipInfo={{
                                                     hasGame: game.hasGame,
                                                     hasBox: game.hasCase,

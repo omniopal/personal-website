@@ -11,6 +11,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/SuperMarioBros",
                     "releaseDate": "October 18, 1985"
                 },
@@ -20,6 +22,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/WreckingCrew",
                     "releaseDate": "October 18, 1985"
                 },
@@ -29,6 +33,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/DonkeyKong",
                     "releaseDate": "June 1, 1986"
                 },
@@ -38,6 +44,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/DonkeyKongJr",
                     "releaseDate": "June 1, 1986"
                 },
@@ -47,6 +55,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/MarioBros",
                     "releaseDate": "June 23, 1986"
                 },
@@ -56,6 +66,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/DonkeyKongClassics",
                     "releaseDate": "September 9, 1988"
                 },
@@ -65,6 +77,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NES/SuperMarioBros2",
                     "releaseDate": "October 14, 1988"
                 },
@@ -74,6 +88,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/SuperMarioBrosDuckHunt",
                     "releaseDate": "November 1988"
                 },
@@ -83,6 +99,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NES/SuperMarioBros3",
                     "releaseDate": "February 12, 1990"
                 },
@@ -92,6 +110,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NES/DrMario",
                     "releaseDate": "October 4, 1990"
                 },
@@ -101,6 +121,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NES/MarioDuckTrack",
                     "releaseDate": "December 1990"
                 },
@@ -110,6 +132,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NES/NESOpenTournamentGolf",
                     "releaseDate": "September 29, 1991"
                 }
@@ -126,6 +150,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GB/SuperMarioLand",
                     "releaseDate": "July 31, 1989"
                 },
@@ -135,6 +161,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GB/SuperMarioLand2",
                     "releaseDate": "November 25, 1992"
                 },
@@ -144,6 +172,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GB/SuperMarioLand3",
                     "releaseDate": "February 7, 1994"
                 },
@@ -153,6 +183,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GB/MariosPicross",
                     "releaseDate": "March 16, 1995"
                 },
@@ -162,6 +194,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GB/GWG",
                     "releaseDate": "May 1997"
                 }
@@ -178,6 +212,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/SuperMarioWorld",
                     "releaseDate": "August 23, 1991"
                 },
@@ -187,6 +223,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/MarioPaint",
                     "releaseDate": "August 1, 1992"
                 },
@@ -196,6 +234,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/SuperMarioKart",
                     "releaseDate": "September 1, 1992"
                 },
@@ -205,6 +245,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/MarioIsMissing",
                     "releaseDate": "June 1993"
                 },
@@ -214,6 +256,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/SuperMarioAllStars",
                     "releaseDate": "August 11, 1993"
                 },
@@ -223,6 +267,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/MariosTimeMachine",
                     "releaseDate": "December 1993"
                 },
@@ -232,6 +278,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/FunWithNumbers",
                     "releaseDate": "September 1994"
                 },
@@ -241,6 +289,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/FunWithLetters",
                     "releaseDate": "October 1994"
                 },
@@ -250,6 +300,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "SNES/PreschoolFun",
                     "releaseDate": "November 1994"
                 },
@@ -259,6 +311,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "SNES/TetrisAndDrMario",
                     "releaseDate": "December 1994"
                 },
@@ -268,6 +322,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "SNES/SMW2",
                     "releaseDate": "October 4, 1995"
                 },
@@ -277,6 +333,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "SNES/SMRPG",
                     "releaseDate": "May 13, 1996"
                 }
@@ -293,6 +351,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "VB/MarioTennis",
                     "releaseDate": "August 14, 1995"
                 },
@@ -302,6 +362,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "VB/MarioClash",
                     "releaseDate": "October 1, 1995"
                 }
@@ -318,6 +380,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "N64/SuperMario64",
                     "releaseDate": "September 29, 1996"
                 },
@@ -327,6 +391,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/MarioKart64",
                     "releaseDate": "February 10, 1997"
                 },
@@ -336,6 +402,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/MarioParty",
                     "releaseDate": "February 8, 1999"
                 },
@@ -345,6 +413,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/SuperSmashBros",
                     "releaseDate": "April 26, 1999"
                 },
@@ -354,6 +424,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/MarioGolf",
                     "releaseDate": "July 26, 1999"
                 },
@@ -363,6 +435,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/MarioParty2",
                     "releaseDate": "January 24, 2000"
                 },
@@ -372,6 +446,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/MarioTennis",
                     "releaseDate": "August 28, 2000"
                 },
@@ -381,6 +457,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/PaperMario",
                     "releaseDate": "February 5, 2001"
                 },
@@ -390,6 +468,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/MarioParty3",
                     "releaseDate": "May 7, 2001"
                 },
@@ -399,6 +479,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "N64/DrMario64",
                     "releaseDate": "April 9, 2001"
                 }
@@ -415,6 +497,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBC/GWG2",
                     "releaseDate": "November 1, 1998"
                 },
@@ -424,6 +508,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBC/SMBDeluxe",
                     "releaseDate": "April 30, 1999"
                 },
@@ -433,6 +519,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBC/MarioGolf",
                     "releaseDate": "October 5, 1999"
                 },
@@ -442,6 +530,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBC/GWG3",
                     "releaseDate": "December 6, 1999"
                 },
@@ -451,6 +541,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBC/MarioTennis",
                     "releaseDate": "January 16, 2001"
                 }
@@ -467,6 +559,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBA/SuperMarioAdvance",
                     "releaseDate": "June 11, 2001"
                 },
@@ -476,6 +570,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBA/MarioKartSC",
                     "releaseDate": "August 27, 2001"
                 },
@@ -485,6 +581,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBA/SuperMarioWorld",
                     "releaseDate": "February 11, 2002"
                 },
@@ -494,6 +592,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/YoshisIsland",
                     "releaseDate": "September 23, 2002"
                 },
@@ -503,6 +603,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/GWG4",
                     "releaseDate": "October 28, 2002"
                 },
@@ -512,6 +614,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/SMB3",
                     "releaseDate": "October 11, 2003"
                 },
@@ -521,6 +625,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/SuperstarSaga",
                     "releaseDate": "November 17, 2003"
                 },
@@ -530,6 +636,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBA/MarioVsDonkeyKong",
                     "releaseDate": "May 24, 2004"
                 },
@@ -539,6 +647,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBA/SuperMarioBros",
                     "releaseDate": "June 2, 2004"
                 },
@@ -548,6 +658,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/MarioGolfAdvanceTour",
                     "releaseDate": "June 22, 2004"
                 },
@@ -557,6 +669,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBA/MarioPinballLand",
                     "releaseDate": "October 4, 2004"
                 },
@@ -566,6 +680,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GBA/DrMario",
                     "releaseDate": "October 4, 2004"
                 },
@@ -575,6 +691,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/MarioPartyAdvance",
                     "releaseDate": "March 28, 2005"
                 },
@@ -584,6 +702,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/DrMarioPuzzleLeague",
                     "releaseDate": "November 28, 2005"
                 },
@@ -593,6 +713,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GBA/MarioTennisPowerTour",
                     "releaseDate": "December 5, 2005"
                 }
@@ -609,6 +731,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/LuigisMansion",
                     "image": "GC/MyCopies/LM",
                     "releaseDate": "November 18, 2001"
@@ -619,6 +743,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/SSBM",
                     "image": "GC/MyCopies/SSBM",
                     "releaseDate": "December 2, 2001"
@@ -629,6 +755,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/SMS",
                     "image": "GC/MyCopies/SMS",
                     "releaseDate": "August 26, 2002",
@@ -641,6 +769,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MP4",
                     "releaseDate": "October 21, 2002"
                 },
@@ -650,6 +780,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MGTT",
                     "image": "GC/MyCopies/MGTT",
                     "releaseDate": "July 28, 2003"
@@ -660,6 +792,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MP5",
                     "image": "GC/MyCopies/MP5",
                     "releaseDate": "November 10, 2003"
@@ -670,6 +804,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MKDD",
                     "image": "GC/MyCopies/MKDD",
                     "releaseDate": "November 17, 2003"
@@ -680,6 +816,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/TTYD",
                     "image": "GC/MyCopies/TTYD",
                     "releaseDate": "October 11, 2004"
@@ -690,6 +828,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MPT",
                     "releaseDate": "November 8, 2004"
                 },
@@ -699,6 +839,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MP6",
                     "image": "GC/MyCopies/MP6",
                     "releaseDate": "December 6, 2004"
@@ -709,6 +851,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MSB",
                     "image": "GC/MyCopies/MSB",
                     "releaseDate": "August 29, 2005"
@@ -719,6 +863,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/DDRMM",
                     "image": "GC/MyCopies/DDRMM",
                     "releaseDate": "October 24, 2005"
@@ -729,6 +875,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/MP7",
                     "image": "GC/MyCopies/MP7",
                     "releaseDate": "November 7, 2005"
@@ -739,11 +887,12 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "GC/Strikers",
                     "image": "GC/MyCopies/Strikers",
                     "releaseDate": "December 5, 2005"
                 }
-                
             ]
         },
         {
@@ -757,6 +906,8 @@
                     "hasCase": true,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/SM64DS",
                     "releaseDate": "November 21, 2004"
                 },
@@ -766,6 +917,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/YoshiTouchAndGo",
                     "releaseDate": "March 14, 2005"
                 },
@@ -775,6 +928,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": true,
+                    "hasContentsPic": false,
                     "filePath": "NDS/MKDS",
                     "releaseDate": "November 14, 2005"
                 },
@@ -784,6 +939,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/PartnersInTime",
                     "releaseDate": "November 28, 2005"
                 },
@@ -793,6 +950,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/SuperPrincessPeach",
                     "releaseDate": "February 27, 2006"
                 },
@@ -802,6 +961,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/NSMBDS",
                     "releaseDate": "May 15, 2006"
                 },
@@ -811,6 +972,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/MarioHoops",
                     "releaseDate": "September 11, 2006"
                 },
@@ -820,6 +983,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/MarioVsDonkeyKong2",
                     "releaseDate": "September 25, 2006"
                 },
@@ -829,6 +994,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/YoshisIsland",
                     "releaseDate": "November 13, 2006"
                 },
@@ -838,6 +1005,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/MPDS",
                     "releaseDate": "November 19, 2007"
                 },
@@ -847,6 +1016,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/MarioAndSonic",
                     "releaseDate": "January 22, 2008"
                 },
@@ -856,6 +1027,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/BowsersInsideStory",
                     "releaseDate": "September 14, 2009"
                 },
@@ -865,6 +1038,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/WinterGames",
                     "releaseDate": "October 13, 2009"
                 },
@@ -874,6 +1049,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "NDS/MiniLandMayhem",
                     "releaseDate": "November 14, 2010"
                 }
@@ -890,6 +1067,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/SuperPaperMario",
                     "releaseDate": "April 9, 2007"
                 },
@@ -899,6 +1078,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/MP8",
                     "releaseDate": "May 29, 2007"
                 },
@@ -908,6 +1089,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/MarioStrikersCharged",
                     "releaseDate": "July 30, 2007"
                 },
@@ -917,6 +1100,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/OlympicGames",
                     "releaseDate": "November 6, 2007"
                 },
@@ -926,6 +1111,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/SMG",
                     "releaseDate": "November 12, 2007"
                 },
@@ -935,6 +1122,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/SSBB",
                     "releaseDate": "March 9, 2008"
                 },
@@ -944,6 +1133,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/MKW",
                     "releaseDate": "April 27, 2008"
                 },
@@ -953,6 +1144,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/SuperMarioSluggers",
                     "releaseDate": "August 25, 2008"
                 },
@@ -962,6 +1155,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/MarioPowerTennis",
                     "releaseDate": "March 9, 2009"
                 },
@@ -971,6 +1166,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/WinterGames",
                     "releaseDate": "October 13, 2009"
                 },
@@ -980,6 +1177,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/NSMBW",
                     "releaseDate": "November 15, 2009"
                 },
@@ -989,6 +1188,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/SMG2",
                     "releaseDate": "May 23, 2010"
                 },
@@ -998,6 +1199,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/AllStars",
                     "releaseDate": "December 12, 2010"
                 },
@@ -1007,6 +1210,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/MarioSportsMix",
                     "releaseDate": "February 7, 2011"
                 },
@@ -1016,6 +1221,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/LondonGames",
                     "releaseDate": "November 15, 2011"
                 },
@@ -1025,6 +1232,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/FortuneStreet",
                     "releaseDate": "December 5, 2011"
                 },
@@ -1034,6 +1243,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Wii/MP9",
                     "releaseDate": "March 12, 2012"
                 }
@@ -1050,6 +1261,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/SM3DL",
                     "releaseDate": "November 13, 2011"
                 },
@@ -1059,6 +1272,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/LondonGames",
                     "releaseDate": "November 15, 2011"
                 },
@@ -1068,6 +1283,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/MK7",
                     "releaseDate": "December 4, 2011"
                 },
@@ -1077,6 +1294,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/MarioTennisOpen",
                     "releaseDate": "May 20, 2012"
                 },
@@ -1086,6 +1305,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/NSMB2",
                     "releaseDate": "August 20, 2012"
                 },
@@ -1095,6 +1316,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/StickerStar",
                     "releaseDate": "November 11, 2012"
                 },
@@ -1104,6 +1327,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/DarkMoon",
                     "releaseDate": "March 24, 2013"
                 },
@@ -1113,6 +1338,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/DreamTeam",
                     "releaseDate": "August 11, 2013"
                 },
@@ -1122,6 +1349,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/IslandTour",
                     "releaseDate": "November 22, 2013"
                 },
@@ -1131,6 +1360,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/YoshisNewIsland",
                     "releaseDate": "March 14, 2014"
                 },
@@ -1140,6 +1371,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/MarioGolfWorldTour",
                     "releaseDate": "May 2, 2014"
                 },
@@ -1149,6 +1382,8 @@
                     "hasCase": true,
                     "hasManual": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/SSB",
                     "releaseDate": "October 3, 2014"
                 },
@@ -1158,6 +1393,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/UltimateNESRemix",
                     "releaseDate": "December 5, 2014"
                 },
@@ -1167,6 +1404,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/PuzzleAndDragons",
                     "releaseDate": "May 22, 2015"
                 },
@@ -1176,6 +1415,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/PaperJam",
                     "releaseDate": "January 22, 2016"
                 },
@@ -1185,6 +1426,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/RioGames",
                     "releaseDate": "March 18, 2016"
                 },
@@ -1194,6 +1437,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/StarRush",
                     "releaseDate": "November 4, 2016"
                 },
@@ -1203,6 +1448,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/MarioMaker",
                     "releaseDate": "December 2, 2016"
                 },
@@ -1212,6 +1459,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/Poochy",
                     "releaseDate": "February 3, 2017"
                 },
@@ -1221,6 +1470,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/MarioSportsSuperstars",
                     "releaseDate": "March 24, 2017"
                 },
@@ -1230,6 +1481,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/BowsersMinions",
                     "releaseDate": "October 6, 2017"
                 },
@@ -1239,6 +1492,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/Top100",
                     "releaseDate": "November 10, 2017"
                 },
@@ -1248,6 +1503,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/TreasureTracker",
                     "releaseDate": "July 13, 2018"
                 },
@@ -1257,6 +1514,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/LuigisMansion",
                     "releaseDate": "October 12, 2018"
                 },
@@ -1266,6 +1525,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "3DS/BowserJrsJourney",
                     "releaseDate": "January 11, 2019"
                 }
@@ -1282,6 +1543,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/NSMBU",
                     "releaseDate": "November 18, 2012"
                 },
@@ -1291,6 +1554,8 @@
                     "hasCase": true,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/NSLU",
                     "releaseDate": "June 20, 2013"
                 },
@@ -1300,6 +1565,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/SM3DW",
                     "releaseDate": "November 22, 2013"
                 },
@@ -1309,6 +1576,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/SochiGames",
                     "releaseDate": "November 15, 2013"
                 },
@@ -1318,6 +1587,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/MK8",
                     "releaseDate": "May 30, 2014"
                 },
@@ -1327,6 +1598,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/SSB",
                     "releaseDate": "November 21, 2014"
                 },
@@ -1336,6 +1609,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/TreasureTracker",
                     "releaseDate": "December 5, 2014"
                 },
@@ -1345,6 +1620,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/MP10",
                     "releaseDate": "March 20, 2015"
                 },
@@ -1354,6 +1631,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/SMM",
                     "releaseDate": "September 11, 2015"
                 },
@@ -1363,6 +1642,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/WoollyWorld",
                     "releaseDate": "October 16, 2015"
                 },
@@ -1372,6 +1653,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/UltraSmash",
                     "releaseDate": "November 20, 2015"
                 },
@@ -1381,6 +1664,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/RioGames",
                     "releaseDate": "June 24, 2016"
                 },
@@ -1390,6 +1675,8 @@
                     "hasCase": false,
                     "hasManual": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "WiiU/ColorSplash",
                     "releaseDate": "October 7, 2016"
                 }
@@ -1405,6 +1692,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/MK8D",
                     "releaseDate": "April 28, 2017"
                 },
@@ -1413,6 +1702,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/MarioRabbids",
                     "releaseDate": "August 29, 2017"
                 },
@@ -1421,6 +1712,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SMO",
                     "releaseDate": "October 27, 2017"
                 },
@@ -1429,6 +1722,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/TennisAces",
                     "releaseDate": "June 22, 2018"
                 },
@@ -1437,6 +1732,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/TreasureTracker",
                     "releaseDate": "July 13, 2018"
                 },
@@ -1445,6 +1742,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SMP",
                     "releaseDate": "October 5, 2018"
                 },
@@ -1453,6 +1752,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SSBU",
                     "releaseDate": "December 7, 2018"
                 },
@@ -1461,6 +1762,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/NSMBUD",
                     "releaseDate": "January 11, 2019"
                 },
@@ -1469,6 +1772,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/CraftedWorld",
                     "releaseDate": "March 29, 2019"
                 },
@@ -1477,6 +1782,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SMM2",
                     "releaseDate": "June 28, 2019"
                 },
@@ -1485,6 +1792,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/LM3",
                     "releaseDate": "October 31, 2019"
                 },
@@ -1493,6 +1802,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/TokyoGames",
                     "releaseDate": "November 5, 2019"
                 },
@@ -1501,6 +1812,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/OrigamiKing",
                     "releaseDate": "July 17, 2020"
                 },
@@ -1509,6 +1822,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/3DAS",
                     "releaseDate": "September 18, 2020"
                 },
@@ -1517,6 +1832,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/HomeCircut",
                     "releaseDate": "October 16, 2020"
                 },
@@ -1525,6 +1842,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/BowsersFury",
                     "releaseDate": "February 21, 2021"
                 },
@@ -1533,6 +1852,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SuperRush",
                     "releaseDate": "June 25, 2021"
                 },
@@ -1541,6 +1862,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/MPS",
                     "releaseDate": "October 29, 2021"
                 },
@@ -1549,6 +1872,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/BattleLeague",
                     "releaseDate": "June 10, 2022"
                 },
@@ -1557,6 +1882,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SparksOfHope",
                     "releaseDate": "October 20, 2022"
                 },
@@ -1565,6 +1892,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SMW",
                     "releaseDate": "October 20, 2023"
                 },
@@ -1573,6 +1902,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/SMRPG",
                     "releaseDate": "November 17, 2023"
                 },
@@ -1581,6 +1912,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/MVDK",
                     "releaseDate": "February 16, 2024"
                 },
@@ -1589,6 +1922,8 @@
                     "hasGame": false,
                     "hasCase": false,
                     "hasPlayed": false,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/LM2",
                     "releaseDate": "June 27, 2024"
                 },
@@ -1597,6 +1932,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/Showtime",
                     "releaseDate": "March 22, 2024"
                 },
@@ -1605,6 +1942,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/TTYD",
                     "releaseDate": "May 23, 2024"
                 },
@@ -1613,6 +1952,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/Jamboree",
                     "releaseDate": "October 17, 2024"
                 },
@@ -1621,6 +1962,8 @@
                     "hasGame": true,
                     "hasCase": true,
                     "hasPlayed": true,
+                    "hasGlb": false,
+                    "hasContentsPic": false,
                     "filePath": "Switch/Brothership",
                     "releaseDate": "November 7, 2024"
                 }

@@ -3,9 +3,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    /* background-color: whitesmoke; */
     background-color: rgb(240, 240, 240);
-    opacity: 90%;
     margin-inline-start: 3rem;
     width: calc(100% - 3rem);
     outline: 1px solid grey;
@@ -21,6 +19,7 @@
     flex-direction: row;
     align-items: center;
     padding: 12px;
+    width: 100%;
 }
 
 .image-container {
@@ -88,6 +87,14 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.contents-image {
+    max-height: 75vh;
+    max-width: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 600px) {}
