@@ -152,6 +152,12 @@ export const GameInfo: React.FC<GameInfoProps> = ({
                         fontWeight: 'bold',
                         fontSize: '20px',
                     },
+                    body: {
+                        overflow: 'visible',
+                    },
+                    content: {
+                        overflow: 'visible',
+                    },
                 }}
             >
                 <img
