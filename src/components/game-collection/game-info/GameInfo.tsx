@@ -158,6 +158,7 @@ export const GameInfo: React.FC<GameInfoProps> = ({
                     className="contents-image"
                     src={`https://pub-1c3c24ac600e4d4daf14cd109a0897f1.r2.dev/${filePath}.jpg`}
                     alt={`An image of the contents inside my copy of ${text}`}
+                    style={{ touchAction: 'pinch-zoom' }}
                 />
             </Modal>
         </>
