@@ -906,8 +906,8 @@
                     "hasCase": true,
                     "hasManual": false,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/SM64DS",
                     "releaseDate": "November 21, 2004"
                 },
@@ -917,8 +917,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/YoshiTouchAndGo",
                     "releaseDate": "March 14, 2005"
                 },
@@ -929,7 +929,7 @@
                     "hasManual": true,
                     "hasPlayed": true,
                     "hasGlb": true,
-                    "hasContentsPic": false,
+                    "hasContentsPic": true,
                     "filePath": "NDS/MKDS",
                     "releaseDate": "November 14, 2005"
                 },
@@ -961,8 +961,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/NSMBDS",
                     "releaseDate": "May 15, 2006"
                 },
@@ -983,8 +983,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/MarioVsDonkeyKong2",
                     "releaseDate": "September 25, 2006"
                 },
@@ -1005,8 +1005,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/MPDS",
                     "releaseDate": "November 19, 2007"
                 },
@@ -1016,8 +1016,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/MarioAndSonic",
                     "releaseDate": "January 22, 2008"
                 },
@@ -1027,8 +1027,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/BowsersInsideStory",
                     "releaseDate": "September 14, 2009"
                 },
@@ -1038,8 +1038,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/WinterGames",
                     "releaseDate": "October 13, 2009"
                 },
@@ -1049,8 +1049,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "NDS/MiniLandMayhem",
                     "releaseDate": "November 14, 2010"
                 }
