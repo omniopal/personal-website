@@ -23,9 +23,9 @@
 }
 
 .image-container {
-    position: relative;
-    min-width: 100px;
-    height: 120px;
+    display: flex;
+    /* min-width: 100px; */
+    /* height: 120px; */
     margin-inline-end: 1rem;
     
 }
@@ -39,6 +39,7 @@
     text-align: left;
     font-size: 0.9rem;
     color: black;
+    margin-block-end: 8px;
 }
 
 .chips {
@@ -74,19 +75,25 @@ h2 {
     margin: 0;
     text-align: left;
     color: black;
+    line-height: 20px;
+    margin-block-end: 4px;
 }
 
 .game-image {
     /* width: 100px; */
+    /* outline: 2px solid black; */
+    outline: 2px solid black;
+
 }
 
+/* set max width here */
 .image-container .game-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* object-fit: contain; */
 }
 
 .contents-image {

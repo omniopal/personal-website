@@ -27,6 +27,7 @@ type GameInfoProps = PropsWithChildren & {
     isVeryLastGame: boolean;
     hasGlb: boolean;
     hasContentsPic: boolean;
+    gameImageWidth: number;
 };
 
 export const GameInfo: React.FC<GameInfoProps> = ({
@@ -40,9 +41,10 @@ export const GameInfo: React.FC<GameInfoProps> = ({
     isVeryLastGame,
     hasGlb,
     hasContentsPic,
+    gameImageWidth,
 }) => {
     const theme = useTheme();
-    const isSmallBreakpoint = useMediaQuery(theme.breakpoints.down(700));
+    const isSmallBreakpoint = useMediaQuery(theme.breakpoints.down(1000));
     const [is3DModalOpened, { open: open3DModal, close: close3DModal }] = useDisclosure(false);
     const [isContentsModalOpened, { open: openContentsModal, close: closeContentsModal }] = useDisclosure(false);
 
@@ -51,7 +53,7 @@ export const GameInfo: React.FC<GameInfoProps> = ({
             <div className={(clsx("game-info", isVeryLastGame && "very-last-game-info"))}>
                 <div className="image-and-title">
                     <div className="image-container">
-                        <img className="game-image" src={`/images/${filePath}.webp`} />
+                        <img className="game-image" style={{ maxWidth: isSmallBreakpoint ? `${gameImageWidth - 20}px` : `${gameImageWidth}px` }} src={`/images/${filePath}.webp`} />
                     </div>
                     <div className="title-and-chips">
                         <h2>{text}</h2>

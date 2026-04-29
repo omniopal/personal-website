@@ -11,6 +11,7 @@ import { Canvas } from '@react-three/fiber';
 import { useGLTF, PresentationControls, OrbitControls } from '@react-three/drei';
 import { Button, Modal } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import { getConsoleImageDimensions } from '../../utils/get-console-image-width';
 
 type GameCollectionProps = {};
 
@@ -113,6 +114,7 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
                                                 isVeryLastGame={isVeryLastGame}
                                                 hasGlb={game.hasGlb}
                                                 hasContentsPic={game.hasContentsPic}
+                                                gameImageWidth={getConsoleImageDimensions(console.name)}
                                                 chipInfo={{
                                                     hasGame: game.hasGame,
                                                     hasBox: game.hasCase,
