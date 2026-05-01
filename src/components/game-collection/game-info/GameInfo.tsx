@@ -2,7 +2,6 @@ import { Chip, useMediaQuery, useTheme } from '@mui/material';
 import { PropsWithChildren } from 'react';
 import './GameInfo.css';
 import clsx from 'clsx';
-import { GameImageModalButton } from '../game-image-modal-button/GameImageModalButton';
 import { Button, Modal, Stack } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { GameModelViewer } from '../game-model-viewer/GameModelViewer';
@@ -33,7 +32,6 @@ type GameInfoProps = PropsWithChildren & {
 export const GameInfo: React.FC<GameInfoProps> = ({
     text,
     filePath,
-    personalCopyImage,
     chipInfo,
     gameReleaseDate,
     physicalGameType,
@@ -64,7 +62,6 @@ export const GameInfo: React.FC<GameInfoProps> = ({
                                 <Chip label={boxType} color="success" variant={chipInfo.hasBox ? "filled" : "outlined"} />
                                 {chipInfo.hasManual !== undefined && <Chip label="Manual" color="success" variant={chipInfo.hasManual ? "filled" : "outlined"} />}
                                 <Chip label="Played" color="success" variant={chipInfo.hasPlayed ? "filled" : "outlined"} />
-                                {chipInfo.hasGame && <GameImageModalButton text={`My copy of ${text}`} image={personalCopyImage} />}
                             </div>
                         }
                     </div>
@@ -103,9 +100,6 @@ export const GameInfo: React.FC<GameInfoProps> = ({
                             <Chip label={boxType} color="success" variant={chipInfo.hasBox ? "filled" : "outlined"} />
                             {chipInfo.hasManual !== undefined && <Chip label="Manual" color="success" variant={chipInfo.hasManual ? "filled" : "outlined"} />}
                             <Chip label="Played" color="success" variant={chipInfo.hasPlayed ? "filled" : "outlined"} />
-                            <div className="modal-button">
-                                {chipInfo.hasGame && <GameImageModalButton text={`My copy of ${text}`} image={personalCopyImage} />}
-                            </div>
                             {hasGlb &&
                                 <Button
                                     color="black"

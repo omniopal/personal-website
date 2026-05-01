@@ -731,10 +731,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/LuigisMansion",
-                    "image": "GC/MyCopies/LM",
                     "releaseDate": "November 18, 2001"
                 },
                 {
@@ -743,10 +742,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/SSBM",
-                    "image": "GC/MyCopies/SSBM",
                     "releaseDate": "December 2, 2001"
                 },
                 {
@@ -755,10 +753,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/SMS",
-                    "image": "GC/MyCopies/SMS",
                     "releaseDate": "August 26, 2002",
                     "rating": "10",
                     "description": "My favorite game of all time :)"
@@ -769,8 +766,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MP4",
                     "releaseDate": "October 21, 2002"
                 },
@@ -780,10 +777,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MGTT",
-                    "image": "GC/MyCopies/MGTT",
                     "releaseDate": "July 28, 2003"
                 },
                 {
@@ -792,10 +788,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MP5",
-                    "image": "GC/MyCopies/MP5",
                     "releaseDate": "November 10, 2003"
                 },
                 {
@@ -804,10 +799,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MKDD",
-                    "image": "GC/MyCopies/MKDD",
                     "releaseDate": "November 17, 2003"
                 },
                 {
@@ -816,10 +810,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/TTYD",
-                    "image": "GC/MyCopies/TTYD",
                     "releaseDate": "October 11, 2004"
                 },
                 {
@@ -828,8 +821,8 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": false,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MPT",
                     "releaseDate": "November 8, 2004"
                 },
@@ -839,10 +832,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MP6",
-                    "image": "GC/MyCopies/MP6",
                     "releaseDate": "December 6, 2004"
                 },
                 {
@@ -851,10 +843,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MSB",
-                    "image": "GC/MyCopies/MSB",
                     "releaseDate": "August 29, 2005"
                 },
                 {
@@ -863,10 +854,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/DDRMM",
-                    "image": "GC/MyCopies/DDRMM",
                     "releaseDate": "October 24, 2005"
                 },
                 {
@@ -875,10 +865,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/MP7",
-                    "image": "GC/MyCopies/MP7",
                     "releaseDate": "November 7, 2005"
                 },
                 {
@@ -887,10 +876,9 @@
                     "hasCase": true,
                     "hasManual": true,
                     "hasPlayed": true,
-                    "hasGlb": false,
-                    "hasContentsPic": false,
+                    "hasGlb": true,
+                    "hasContentsPic": true,
                     "filePath": "GC/Strikers",
-                    "image": "GC/MyCopies/Strikers",
                     "releaseDate": "December 5, 2005"
                 }
             ]

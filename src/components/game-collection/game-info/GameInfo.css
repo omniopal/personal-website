@@ -6,7 +6,7 @@
     background-color: rgb(240, 240, 240);
     margin-inline-start: 3rem;
     width: calc(100% - 3rem);
-    outline: 1px solid grey;
+    border: 1px solid grey;
 }
 
 .very-last-game-info {
@@ -24,10 +24,7 @@
 
 .image-container {
     display: flex;
-    /* min-width: 100px; */
-    /* height: 120px; */
     margin-inline-end: 1rem;
-    
 }
 
 .title-and-chips {

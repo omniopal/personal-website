@@ -3,19 +3,15 @@ import './GameCollection.css';
 import * as gameCollectionDataJson from '../../data/game-collection-data.json';
 import { getPhysicalGameType } from '../../utils/get-physical-game-type';
 import { CollapsibleConsoleButton } from './collapsible-console-button/CollapsibleConsoleButton';
-import { Filters } from './filters/Filters';
 import { getGameBoxType } from '../../utils/get-game-box-type';
 import { NoGamesWarning } from './no-games-warning/NoGamesWarning';
 import { GameInfo } from './game-info/GameInfo';
-import { Canvas } from '@react-three/fiber';
-import { useGLTF, PresentationControls, OrbitControls } from '@react-three/drei';
-import { Button, Modal } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
 import { getConsoleImageDimensions } from '../../utils/get-console-image-width';
+import { SegmentedControl } from '@mantine/core';
 
 type GameCollectionProps = {};
 
-export type ListFilter = 'all-games' | 'owned-games' | 'unowned-games';
+export type FilterValues = 'all-games' | 'owned-games' | 'unowned-games';
 
 interface Game {
     title: string;
@@ -26,7 +22,6 @@ interface Game {
     hasPlayed: boolean;
     hasGlb: boolean;
     hasContentsPic: boolean;
-    image?: string;
     releaseDate: string;
 }
 
@@ -38,14 +33,10 @@ interface Console {
 }
 
 export const GameCollection: React.FC<GameCollectionProps> = () => {
-    const [filterValue, setFilterValue] = useState<ListFilter>('all-games');
+    const [filterValue, setFilterValue] = useState<FilterValues>('all-games');
     const [openIndices, setOpenIndices] = useState<number[]>([]);
-    
-    const gameData: { consoles: Console[] } = gameCollectionDataJson;
 
-    const onFilterChange = (filter: ListFilter) => {
-        setFilterValue(filter);
-    }
+    const gameData: { consoles: Console[] } = gameCollectionDataJson;
 
     const addOpenIndex = (index: number) => {
         if (!openIndices.includes(index)) {
@@ -59,20 +50,22 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
         }
     }
 
-    const isMobile = window.innerWidth < 768;
-
-    const Model = (props: any) => { // temp any find right type and fix
-         const { scene } = useGLTF('/objects/test.glb');
-         return <primitive object={scene} {...props} />
-    }
-
     return (
         <div className="background">
             <div className="jacobs-games">
                 <img className="jacobs-games-image" src="/images/jacobs-games.png" alt="TODO" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="filters-container">
-                <Filters onFilterChange={onFilterChange} />
+                <SegmentedControl
+                    value={filterValue}
+                    onChange={setFilterValue}
+                    color="#2e7d32"
+                    data={[
+                        { label: 'All Games', value: 'all-games' },
+                        { label: 'Owned', value: 'owned-games' },
+                        { label: 'Unowned', value: 'unowned-games' },
+                    ]}
+                />
             </div>
             <nav className="game-collection">
                 {gameData.consoles.map((console, index) => {
@@ -107,7 +100,6 @@ export const GameCollection: React.FC<GameCollectionProps> = () => {
                                             <GameInfo 
                                                 text={game.title}
                                                 filePath={game.filePath}
-                                                personalCopyImage={game.image}
                                                 gameReleaseDate={game.releaseDate}
                                                 physicalGameType={physicalGameType}
                                                 boxType={boxType}
