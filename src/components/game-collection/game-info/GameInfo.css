@@ -3,7 +3,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(235, 235, 235);
     margin-inline-start: 3rem;
     width: calc(100% - 3rem);
     border: 1px solid grey;
