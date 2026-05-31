@@ -1138,10 +1138,10 @@
                     "releaseDate": "August 25, 2008"
                 },
                 {
-                    "title": "New Play Control! Mario Power Tennis",
-                    "hasGame": false,
-                    "hasCase": false,
-                    "hasManual": false,
+                    "title": "Mario Power Tennis",
+                    "hasGame": true,
+                    "hasCase": true,
+                    "hasManual": true,
                     "hasPlayed": false,
                     "hasGlb": false,
                     "hasContentsPic": false,
