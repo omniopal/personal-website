@@ -8,6 +8,7 @@
   --nes-light-gray: rgb(197, 196, 193);
   --nes-dark-gray: rgb(111,111,111);
   --background-color: #292A29;
+  --wave-height: 50px;
 }
 
 body {

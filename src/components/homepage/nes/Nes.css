@@ -82,10 +82,18 @@
     display: none;
     justify-content: center;
 
-    /* Overlap bottom dark piece of NES to blend in to next section */
-    padding-bottom: 40px;
-    margin-bottom: -40px;
+    position: relative;
     z-index: 1;
+}
+
+.nes-bottom-middle::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: calc(var(--wave-height) + 1px);
+    background-color: rgb(40,42,41);
 }
 
 .nes-bottom-right {
